@@ -21,7 +21,14 @@ body {
 }
 
 /* index */
-
+.logo{
+  width: 300px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 400px;
+  border: solid black 3px;
+  margin-bottom: 1em;
+}
 #indexBody {
   height: 100%;
   background-image: url(img/background.jpg);
@@ -33,7 +40,7 @@ body {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
 }
 #titleIndex h1 {
   font-size: 4em;
