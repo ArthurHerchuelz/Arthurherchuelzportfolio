@@ -2,6 +2,7 @@
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Contact</title>
@@ -9,9 +10,7 @@
 <body id="postcardBackground">
   <main>
     <h1 class="typewriter title">Contact</h1>
-
   <div id="postCard">
-
       <form action="mailto:arthurherchuelz@gmail.com" method="get" enctype="text/plain" class="contactForm">
         <div id="messageForm">
         <textarea name="comments" rows="12" cols="35" placeholder="Ecrivez votre message ici..."></textarea>
@@ -28,17 +27,13 @@
       </div>
     </div>
       <div id="buttonForm">
-        <input type="submit" name="submit" value="Envoyer" />
-        <input type="reset" name="reset" value="Effacer" />
+        <input class="button" type="submit" name="submit" value="Envoyer" />
+        <input class="button" type="reset" name="reset" value="Effacer" />
       </div>
     </form>
-
-
-
-</div>
 </main>
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="index.html">Herchuelz Arthur</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
