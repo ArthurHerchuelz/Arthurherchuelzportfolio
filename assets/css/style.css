@@ -26,9 +26,10 @@ body {
   height: auto;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 400px;
-  border: solid black 3px;
+  border: double black 5px;
   margin-bottom: 1em;
 }
+
 #indexBody {
   height: 100%;
   background-image: url(img/background.jpg);
@@ -144,13 +145,15 @@ img {
   text-align: right;
   width: 51%;
 }
-
+.info {
+  text-align: center;
+}
 /* -----------------------Grid---------------------------- */
 
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr) ;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(7, auto);
   grid-gap: 2em;
 }
 
@@ -215,6 +218,16 @@ img {
   grid-area: text;
   grid-column: 1 / col2-start /last-line / 2;
   grid-row: 5 ;
+}
+.video6 {
+  grid-area: video3;
+  grid-column: 1 / 2;
+  grid-row: 6 ;
+}
+.text6 {
+  grid-area: text;
+  grid-column: 1 / col2-start /last-line / 2;
+  grid-row: 6 ;
 }
 
 /* -------------------Contact Form-------------------- */
@@ -367,5 +380,16 @@ input{
      }
      figure {
        display: flex;
+     }
+     .logo{
+       width: 200px;
+     }
+     .speech {
+       display: block;
+       text-align: left;
+       width: 100%;
+     }
+     .speechCol {
+       display: none;
      }
    }
